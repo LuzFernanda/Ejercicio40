@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   resources :paginax, :users
   get 'pages/paginax'
+  get 'landing' => "pages#landing"
   root 'pages#paginax'
   
   # The priority is based upon order of creation: first created -> highest priority.

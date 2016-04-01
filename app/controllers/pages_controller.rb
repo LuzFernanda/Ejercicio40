@@ -6,6 +6,8 @@ def paginax
 @user = User.new
 end
 
+def landing
+end
 
 
 end
